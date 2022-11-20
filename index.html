@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Toggle</title>
+    <script
+      src="https://kit.fontawesome.com/715d829499.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="default-bg">
+    <header>
+      <div class="white-bg"></div>
+      <div class="menu-container">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <ul id="menu">
+          <li class="default-bg">
+            <input
+              type="radio"
+              name="background-color"
+              id="default-background"
+              checked
+            />
+            <label for="default-background">Default</label>
+          </li>
+          <li class="crimson-bg">
+            <input
+              type="radio"
+              name="background-color"
+              id="crimson-background"
+            />
+            <label for="crimson-background">Crimson</label>
+          </li>
+          <li class="darkblue-bg">
+            <input
+              type="radio"
+              name="background-color"
+              id="darkblue-background"
+            />
+            <label for="darkblue-background">Dark Blue</label>
+          </li>
+          <li class="forestgreen-bg">
+            <input
+              type="radio"
+              name="background-color"
+              id="forestgreen-background"
+            />
+            <label for="forestgreen-background">Forest Green</label>
+          </li>
+          <li class="yellow-bg">
+            <input
+              type="radio"
+              name="background-color"
+              id="yellow-background"
+            />
+            <label for="yellow-background">Yellow</label>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <h1 id="heading">Background Color: Default</h1>
+  </body>
+</html>
